@@ -20,10 +20,7 @@ This application allows students to:
 ## SGPA Formula
 The SGPA (Semester Grade Point Average) is calculated using the following formula:
 
-\[
-\text{SGPA} = \frac{\sum (\text{Credits} \times \text{Grade Points})}{\sum \text{Credits}}
-\]
-
+  SGPA = (Sum of (Credits × Grade Points)) / (Sum of Credits)
 
 ### Explanation
 1. **Credits:** The number of credits for a subject.
