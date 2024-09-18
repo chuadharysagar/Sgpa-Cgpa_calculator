@@ -3,8 +3,7 @@ import { StoreContext } from '../context/StoreContext';
 import './DisplaySubjects.css'
 
 const DisplaySubjects = () => {
-   const { deatial_List, handleDelete, calculateSgpa } = useContext(StoreContext);
-   console.log(deatial_List);
+   const { deatial_List, handleDelete,  calculateSgpa } = useContext(StoreContext);
 
    const [sgpa, setSgpa] = useState(0);
    const [showResult,setShowResult] = useState(false);
@@ -13,7 +12,6 @@ const DisplaySubjects = () => {
       setShowResult(true)
       const calculatedSgpa = calculateSgpa(deatial_List);
       setSgpa(calculatedSgpa);
-      console.log(calculatedSgpa);
    };
 
    return (
@@ -29,6 +27,7 @@ const DisplaySubjects = () => {
             ))}
             {deatial_List.length > 0 ? <button className='btn calulate' onClick={() => onClickHandler(deatial_List)}>Calculate</button> : <></>}
          </div>
+         {console.log(sgpa)}
          {showResult && deatial_List.length>0?<p className='result'>Your Sgpa is :{sgpa.toFixed(2)}</p>:<></>}
       </>
    );

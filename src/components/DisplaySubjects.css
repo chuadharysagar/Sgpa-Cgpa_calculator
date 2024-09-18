@@ -23,7 +23,7 @@
 }
 
 .subject-item .grade{
-   width: 3.1rem;
+   width: 4rem;
    height: 2.5rem;
    background-color: white;
    border-radius: 4px;
@@ -49,8 +49,8 @@
 }
 
 .result{
-   margin-top: 1rem;
    color: white;
+   font-size:2rem;
 }
 
 .remove{

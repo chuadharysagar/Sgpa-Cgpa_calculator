@@ -29,10 +29,10 @@ const StoreContextProvider = (props) => {
       let denominator = 0;
     
       deatial_List.forEach((item) => {
-        numerator += (item.credit * item.grade);
-        denominator += item.credit;
+        numerator += (Number(item.credit) * gradeMap[item.grade]);
+        denominator += (Number(item.credit));
       });
-    
+     
       return (numerator / denominator);
     }    
 
