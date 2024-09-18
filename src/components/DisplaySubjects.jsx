@@ -27,7 +27,6 @@ const DisplaySubjects = () => {
             ))}
             {deatial_List.length > 0 ? <button className='btn calulate' onClick={() => onClickHandler(deatial_List)}>Calculate</button> : <></>}
          </div>
-         {console.log(sgpa)}
          {showResult && deatial_List.length>0?<p className='result'>Your Sgpa is :{sgpa.toFixed(2)}</p>:<></>}
       </>
    );

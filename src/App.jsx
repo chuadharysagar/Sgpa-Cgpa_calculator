@@ -10,7 +10,6 @@ const App = () => {
       <DisplaySubjects />
    </div>
 
-
 }
 
 export default App
