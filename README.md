@@ -1,3 +1,5 @@
+### [Click here for live demo](https://sgpa-cgpa-calculator-nine.vercel.app/)
+
 # SGPA Calculator
 
 This is a simple SGPA (Semester Grade Point Average) calculator built with React. It allows users to input their subject names, select their grades, and automatically calculates the SGPA based on the provided inputs.
